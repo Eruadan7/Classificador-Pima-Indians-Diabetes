@@ -74,8 +74,8 @@ print(f"F1-Score médio:  {scores_cross['test_f1_macro'].mean():.4f}")
 
 
 # 8. TREINAR MODELO FINAL
-diabetes_rf = rf_otimizado.fit(atributos_b, classes_b)
+#diabetes_rf = rf_otimizado.fit(atributos_b, classes_b)
 
 
 # 9. SALVAR MODELO
-dump(diabetes_rf, open('modelo_random_forest.pkl', 'wb'))
+#dump(diabetes_rf, open('modelo_random_forest.pkl', 'wb'))
